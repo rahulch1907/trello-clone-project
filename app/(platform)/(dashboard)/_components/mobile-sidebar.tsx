@@ -34,7 +34,7 @@ export const MobileSidebar = () => {
     <>
       <Button
         onClick={onOpen}
-        className="block md:hidden mr-4 hover:bg-slate-300"
+        className="block md:hidden mr-4 hover:bg-slate-300 hover:shadow-lg shadow-sm bg-slate-300 rounded-xl"
         variant="ghost"
         size="sm"
       >
