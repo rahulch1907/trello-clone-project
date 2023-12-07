@@ -69,8 +69,8 @@ export const Sidebar = ({
 
     return (
       <>
-        <div className="font-medium text-xs flex items-center mb-1 text-black">
-          <span className="pl-4 text-lg">Workspaces</span>
+        <div className="font-medium text-xs flex items-center mb-4 text-black">
+          <span className="pl-4 text-lg font-extrabold">Workspaces</span>
           <Button
             asChild
             type="button"
@@ -78,8 +78,8 @@ export const Sidebar = ({
             variant="ghost"
             className="ml-auto"
           >
-            <Link href="/select-org" className="bg-sky-400 hover:bg-sky-500">
-              <Plus className="h-6 w-6" />
+            <Link href="/select-org" className="bg-sky-400 hover:bg-sky-400 h-10 w-10 rounded-xl shadow-sm hover:shadow-xl">
+              <Plus className="h-6 w-6 text-lg" />
             </Link>
           </Button>
         </div>
