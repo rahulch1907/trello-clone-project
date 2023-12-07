@@ -58,7 +58,7 @@ const handler = async (data: InputType): Promise<ReturnType> => {
                 name: "ProTasker Pro",
                 description: "Unlimited boards for your organization",
               },
-              unit_amount: 499,
+              unit_amount: 49900,
               recurring: {
                 interval: "month",
               },
