@@ -61,7 +61,6 @@ export const BoardList = async () => {
             </span>
             <Hint
               sideOffset={40}
-              side="top"
               description={`
                 Free Workspaces can have up to 5 open boards. For unlimited boards upgrade this workspace.
               `}
