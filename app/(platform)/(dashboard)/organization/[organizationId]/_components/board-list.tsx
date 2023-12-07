@@ -48,7 +48,7 @@ export const BoardList = async () => {
             <p className="relative font-semibold text-white">{board.title}</p>
           </Link>
         ))}
-        <FormPopover sideOffset={10} side="right">
+        <FormPopover sideOffset={14} side="bottom">
           <div
             role="button"
             className="aspect-video relative h-full w-full bg-muted rounded-xl flex flex-col gap-y-1 items-center justify-center hover:opacity-100 transition"
@@ -61,6 +61,7 @@ export const BoardList = async () => {
             </span>
             <Hint
               sideOffset={40}
+              side="top"
               description={`
                 Free Workspaces can have up to 5 open boards. For unlimited boards upgrade this workspace.
               `}
